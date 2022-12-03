@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-3dp"
+            android:background="#fefece"
+            android:columnCount="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="이름"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="권혁돈\n\nHyeokDon Kwon"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_gravity=""
+                android:layout_margin="15dp"
+                android:src="@drawable/profile_pic" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="생년월일"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="1999.06.02"
+                android:textSize="17dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="E-Mail"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="gurehs12@naver.com"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="주소지"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="강원도 춘천시 교동"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="학교"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="한림대학교"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="전공"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="스마트 IoT"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="복수 전공"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="빅데이터"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="전공 평점"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="4.3/4.5"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="전체 평점"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="3.99/4.5"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="대외 활동"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="전자공학과 학생회 ( 2018.3 ~ 2018.12 )"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="융합정보통신 연구실 인턴 (2021.11 ~ )"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="빅데이터 학생회 (2022.3 ~ )"
+                android:textSize="17dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="장학 이력"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="SW 인재장학금Ⅰ (2021 2학기)"
+                android:textSize="17dp" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_columnSpan="2"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:text="한림추천장학금(학과장추천)"
+                    android:textSize="17dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="SW 인재장학금Ⅰ (2022 1학기)"
+                android:textSize="17dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="SW 인재장학금Ⅰ (2022 2학기)"
+                android:textSize="17dp" />
+        </GridLayout>
+    </RelativeLayout>
+</ScrollView>
